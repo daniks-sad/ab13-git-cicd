@@ -36,5 +36,5 @@ test("GET /api/sum складывает два числа", async () => {
 
 test("GET /api/sum возвращает 400 при некорректных параметрах", async () => {
   const response = await fetch(`${baseUrl}/api/sum?a=abc&b=3`);
-  assert.strictEqual(response.status, 200);
+  assert.strictEqual(response.status, 400);
 });

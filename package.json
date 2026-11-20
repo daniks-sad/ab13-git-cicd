@@ -1,0 +1,13 @@
+{
+  "name": "lab13-git-cicd",
+  "version": "1.0.0",
+  "description": "Учебное Web-приложение для лабораторной работы по Git и CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
